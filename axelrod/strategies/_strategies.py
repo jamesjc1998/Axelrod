@@ -20,6 +20,7 @@ annotated as to avoid some static testing. For example:
     )
     # isort:skip_file
 """
+from .UTFT import UTFT
 from .adaptive import Adaptive
 from .adaptor import AdaptorBrief, AdaptorLong
 from .alternator import Alternator
